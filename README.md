@@ -2,9 +2,9 @@
 
 En este respositorio se encuentra el código relacionado al trabajo sobre Natural Language Processing de la asignatura Intelligent Systems.
 
-## Pasos para ejecutar el código:
+## Pasos para ejecutar el código (fichero nlp_project.R):
 
-1. Establecer correctamente el directorio dónde se encuentran los ficheros (Session -> Set Working Directory -> Choose Directory).
+1. Establecer correctamente el directorio dónde se encuentran el fichero de R y los dos conjuntos de datos que se han utilziado (Session -> Set Working Directory -> Choose Directory).
 2. Instalar todos los paquetes que se encuentran al inicio del código en R, bajo el comentario "Install required packages".
 3. Cargar dichos paquetes, ejecutar las líneas que se encuentran debajo del comentario "Load required packages".
 4. Ejecutar de forma secuencial las líneas de código del fichero.
