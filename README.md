@@ -1,4 +1,4 @@
-# Coronavirus Tweets | Natural Language Processing | Sentiment Analysis & Classification Models
+# Coronavirus Tweets | Natural Language Processing 
 
 En este respositorio se encuentra el código relacionado al trabajo sobre Natural Language Processing de la asignatura Intelligent Systems.
 
