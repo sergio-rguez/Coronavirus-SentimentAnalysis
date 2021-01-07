@@ -1,4 +1,4 @@
-# Coronavirus-SentimentAnalysis
+# Coronavirus Tweets | Natural Language Processing | Sentiment Analysis & Classification Models
 
 En este respositorio se encuentra el código relacionado al trabajo sobre Natural Language Processing de la asignatura Intelligent Systems.
 
@@ -10,6 +10,7 @@ En este respositorio se encuentra el código relacionado al trabajo sobre Natura
 4. Ejecutar de forma secuencial las líneas de código del fichero.
 
 En el fichero se encuentran comentarios que ayudarán a la ejecución del código y la comprensión de lo que se quiere conseguir con los correspondientes comandos.
+
 #
-#
+
 Sergio Rodríguez Corujo.
