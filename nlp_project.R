@@ -76,7 +76,7 @@ ggplot(data = covid_data, mapping = aes(x = Sentiment, fill = as.factor(Sentimen
 num_sentiment_data <- covid_data %>% 
   group_by(Sentiment) %>% 
   tally()
-
+num_sentiment_data
 
 ################################################################################
 
@@ -219,7 +219,7 @@ model_nb <- naiveBayes(Sentiment ~ OriginalTweet, data = training) # Create the 
 
 pred_nb <- predict(model_nb, newdata = testing) # Testing the model
 mtrx_nb <- table(testing$Sentiment, pred_nb)
-confusionMatrix(mtrx_nb) # Accuracy 43.55%
+confusionMatrix(mtrx_nb) # Accuracy ~= 43.55%
 
 
 # Random Forest Model
@@ -228,6 +228,6 @@ model_rf <- randomForest(Sentiment ~ OriginalTweet, data = training) # Create th
 
 pred_rf <- predict(model_rf, newdata = testing) # Testing the model
 mtrx_rf <- table(testing$Sentiment, pred_rf)
-confusionMatrix(mtrx_rf) # Accuracy 39.03%
+confusionMatrix(mtrx_rf) # Accuracy ~= 39.03%
 
 ################################################################################
