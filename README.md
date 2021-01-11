@@ -11,6 +11,9 @@ En este respositorio se encuentra el código relacionado al trabajo sobre Natura
 
 En el fichero se encuentran comentarios que ayudarán a la ejecución del código y la comprensión de lo que se quiere conseguir con los correspondientes comandos.
 
+## Nota: 
+Los datos y los plots de las funciones, pueden no coincidir al 100% con los resultados del documento, puesto que los 5000 registros que se usaron para elaborar el documento, pueden no ser los mismos que cuando se ejecute el código, ya que son elegidos de manera aleatoria.
+
 #
 
 Sergio Rodríguez Corujo.
